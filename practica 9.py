@@ -19,19 +19,16 @@ t.pensize(3)
 t.penup()
 t.goto(0, -150)
 t.pendown()
-
 # Función para dibujar un corazón
 def dibujar_corazon():
     t.begin_fill()
     t.fillcolor("blue")
-
     t.left(140)  
     t.forward(180)  
     t.circle(-90, 200)  
     t.left(120)  
     t.circle(-90, 200)  
     t.forward(180)  
-
     t.end_fill()
 
 # Dibujar el corazón
@@ -46,3 +43,4 @@ t.write("Cecyte Comonfort 1", font=("Arial", 18, "bold"))
 # Ocultar la tortuga y finalizar
 t.hideturtle()
 turtle.done()utas:", frutas)
+hola grupo 
